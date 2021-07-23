@@ -59,4 +59,32 @@ Output:
 { person: 'Name 3', age: '8', company: 'GUVI geek network' }
 
 
-2)
+2)Resume in JSON
+var resume =[{
+    title : "harika",
+    department : "Mechancial"
+},
+{
+    education_Qualification : {
+        b_Tech : "JNTUHCEJ",
+        percentage : "81.72%",
+        m_E : "UCE",
+        percentge : "88"
+
+    }
+},
+{
+    btech_Projects : "Hygroscopic Analysis",
+    me_Project : "Micro Drilling",
+    internship : "NTPC",
+    fellowship : "SFRF IIT Delhi"
+
+},
+{
+    hobbies : "Gardening, reading stories"
+}
+
+]
+console.log(resume);
+
+
